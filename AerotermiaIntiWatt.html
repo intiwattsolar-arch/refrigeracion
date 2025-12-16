@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soluciones Híbridas para Refrigeración</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3b82f6',
+                        secondary: '#10b981',
+                        accent: '#f59e0b'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .bg-grid {
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.05'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        .section-margin {
+            scroll-margin-top: 80px;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
+
+    <!-- Hero Section -->
+    <section id="hero" class="pt-24 pb-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-50 to-cyan-50 relative overflow-hidden">
+        <div class="absolute inset-0 bg-grid opacity-5"></div>
+        <div class="max-w-7xl mx-auto text-center relative z-10">
+            <div class="inline-block px-4 py-1.5 rounded-full text-sm font-semibold bg-blue-100 text-blue-800 mb-6">
+                <i class="fas fa-temperature-high mr-1"></i> Soluciones Híbridas para Refrigeración
+            </div>
+            
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+                Aerotermia + Fotovoltaica: 
+                <span class="block mt-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-cyan-500">
+                    La Sinergia Energética para la Región Centro
+                </span>
+            </h1>
+            
+            <p class="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto mb-10">
+                Reduzca los costos energéticos de refrigeración en hasta un 70% con una solución técnica y económicamente sostenible
+            </p>
+        </div>
+    </section>
+
+    <!-- Section 1: Contexto Regional -->
+    <section id="contexto" class="py-16 px-4 sm:px-6 lg:px-8 bg-white section-margin">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12">
+                <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-blue-100 text-blue-600 mb-4">
+                    <i class="fas fa-factory text-2xl"></i>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">El Desafío Energético en Córdoba</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Análisis del contexto energético regional y la oportunidad de soluciones híbridas
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                        <i class="fas fa-lightbulb text-yellow-500 mr-2"></i>
+                        La Crisis Actual
+                    </h3>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></div>
+                            <span class="text-gray-700">
+                                <strong>Costo eléctrico creciente:</strong> Aumento promedio del 15-20% anual en tarifas industriales en la región centro
+                            </span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></div>
+                            <span class="text-gray-700">
+                                <strong>Alta demanda en picos:</strong> Refrigeración industrial representa hasta el 40% del consumo energético en PyMEs de la región
+                            </span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 w-2 h-2 bg-blue-600 rounded-full mt-2 mr-3"></div>
+                            <span class="text-gray-700">
+                                <strong>Estacionalidad extrema:</strong> Veranos con temperaturas superiores a 35°C incrementan un 60% el consumo de climatización
+                            </span>
+                        </li>
+                    </ul>
+                    
+                    <div class="bg-blue-50 rounded-xl p-6 border border-blue-100">
+                        <p class="text-gray-700 italic">
+                            "En Córdoba, la radiación solar media anual de 5.8 kWh/m²/día y el perfil de demanda diurno en procesos frigoríficos crean las condiciones ideales para la sinergia aerotermia + fotovoltaica"
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-6 border border-gray-200 shadow-lg">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                        <i class="fas fa-battery-full text-green-600 mr-2"></i>
+                        La Solución Híbrida
+                    </h3>
+                    
+                    <div class="space-y-5">
+                        <div class="flex items-start">
+                            <div class="bg-green-100 text-green-800 rounded-full p-2 mr-4">
+                                <i class="fas fa-temperature-high text-sm"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg mb-1">Coincidencia Energética Perfecta</h4>
+                                <p class="text-gray-700">
+                                    La producción fotovoltaica diurna (máxima entre 10:00 y 16:00) coincide con el pico de demanda térmica para refrigeración en procesos industriales y comerciales.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 text-blue-800 rounded-full p-2 mr-4">
+                                <i class="fas fa-balance-scale text-sm"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg mb-1">Eficiencia Sinérgica</h4>
+                                <p class="text-gray-700">
+                                    El COP efectivo de las bombas de calor mejora un 25-30% al operar con energía solar de costo marginal cero, reduciendo la dependencia de la red en horas pico.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white rounded-xl p-4 border border-gray-200 mt-4">
+                            <p class="text-sm font-medium text-gray-500 mb-2">DATO CLAVE REGIONAL</p>
+                            <p class="text-lg font-bold text-gray-900">
+                                La sinergia permite alcanzar hasta un 85% de autoconsumo directo en instalaciones industriales de Córdoba
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Triple Alliance Model -->
+    <section id="alianza" class="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white section-margin">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-indigo-100 text-indigo-700 mb-4">
+                    <i class="fas fa-users text-2xl"></i>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Una Sinergia Profesional, No Subcontratación
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Modelo de alianza técnica, económica y de cumplimiento corporativo
+                </p>
+            </div>
+            
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-200 mb-16">
+                <div class="grid grid-cols-1 lg:grid-cols-3 divide-y lg:divide-y-0 lg:divide-x">
+                    <!-- Aerotermia Partner -->
+                    <div class="p-8 text-center lg:border-r border-gray-200">
+                        <div class="inline-block p-4 bg-orange-100 rounded-2xl mb-6">
+                            <i class="fas fa-temperature-high text-2xl text-orange-600"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">Socio de Aerotermia</h3>
+                        <p class="text-lg text-blue-600 font-medium mb-4">Demanda Térmica / Instalación</p>
+                        <ul class="text-left space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <span class="flex-shrink-0 w-1.5 h-1.5 bg-orange-500 rounded-full mt-2 mr-3"></span>
+                                <span>Lidera la relación comercial con el cliente</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="flex-shrink-0 w-1.5 h-1.5 bg-orange-500 rounded-full mt-2 mr-3"></span>
+                                <span>Expertise en dimensionamiento de equipos térmicos</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="flex-shrink-0 w-1.5 h-1.5 bg-orange-500 rounded-full mt-2 mr-3"></span>
+                                <span>Gestión de instalación y mantenimiento térmico</span>
+                            </li>
+                        </ul>
+                        <div class="bg-orange-50 text-orange-800 rounded-lg p-3 text-sm font-medium">
+                            Conserva su especialidad y relación con el cliente
+                        </div>
+                    </div>
+                    
+                    <!-- IntiWatt -->
+                    <div class="p-8 text-center bg-blue-50 lg:border-r border-gray-200">
+                        <div class="inline-block p-4 bg-blue-100 rounded-2xl mb-6">
+                            <i class="fas fa-lightbulb text-2xl text-blue-600"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">IntiWatt</h3>
+                        <p class="text-lg text-blue-600 font-medium mb-4">Ingeniería Fotovoltaica</p>
+                        <ul class="text-left space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <span class="flex-shrink-0 w-1.5 h-1.5 bg-blue-500 rounded-full mt-2 mr-3"></span>
+                                <span>Diseño FV optimizado para carga térmica</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="flex-shrink-0 w-1.5 h-1.5 bg-blue-500 rounded-full mt-2 mr-3"></span>
+                                <span>Ejecución de obra con estándares de calidad</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="flex-shrink-0 w-1.5 h-1.5 bg-blue-500 rounded-full mt-2 mr-3"></span>
+                                <span>Integración energética y monitoreo continuo</span>
+                            </li>
+                        </ul>
+                        <div class="bg-blue-100 text-blue-800 rounded-lg p-3 text-sm font-medium">
+                            Aporta ingeniería y garantía técnica en generación
+                        </div>
+                    </div>
+                    
+                    <!-- ECORISE -->
+                    <div class="p-8 text-center">
+                        <div class="inline-block p-4 bg-green-100 rounded-2xl mb-6">
+                            <i class="fas fa-leaf text-2xl text-green-600"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">ECORISE</h3>
+                        <p class="text-lg text-blue-600 font-medium mb-4">Sustentabilidad y ESG</p>
+                        <ul class="text-left space-y-3 mb-6">
+                            <li class="flex items-start">
+                                <span class="flex-shrink-0 w-1.5 h-1.5 bg-green-500 rounded-full mt-2 mr-3"></span>
+                                <span>Auditoría inicial de eficiencia energética</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="flex-shrink-0 w-1.5 h-1.5 bg-green-500 rounded-full mt-2 mr-3"></span>
+                                <span>Medición de huella de carbono post-implementación</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="flex-shrink-0 w-1.5 h-1.5 bg-green-500 rounded-full mt-2 mr-3"></span>
+                                <span>Reportes ESG e I-REC para valor corporativo</span>
+                            </li>
+                        </ul>
+                        <div class="bg-green-50 text-green-800 rounded-lg p-3 text-sm font-medium">
+                            Certificación de impacto ambiental y beneficios ESG
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 py-6 px-8 border-t border-gray-200">
+                    <div class="max-w-4xl mx-auto text-center">
+                        <p class="text-gray-700 text-lg italic">
+                            "Este modelo elimina la competencia interna, preserva las relaciones comerciales existentes y maximiza el valor técnico para el cliente final"
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Energy Analysis -->
+    <section id="analisis" class="py-16 px-4 sm:px-6 lg:px-8 bg-white section-margin">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12">
+                <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-amber-100 text-amber-700 mb-4">
+                    <i class="fas fa-battery-full text-2xl"></i>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Ingeniería Aplicada al Consumo Real
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Análisis energético y casos de uso para refrigeración industrial
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+                <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Casos de Referencia para Refrigeración</h3>
+                    
+                    <div class="space-y-8">
+                        <!-- Case 1: PyME -->
+                        <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200">
+                            <div class="bg-orange-50 p-6 border-b border-gray-200">
+                                <h4 class="text-xl font-bold text-gray-900 flex items-center">
+                                    <i class="fas fa-building text-orange-500 mr-2"></i>
+                                    PyME con Cámaras de Frío
+                                </h4>
+                            </div>
+                            <div class="p-6">
+                                <div class="flex items-center mb-4">
+                                    <div class="bg-blue-100 text-blue-800 text-xs font-bold px-2.5 py-0.5 rounded mr-2">
+                                        AUTONOMÍA 78%
+                                    </div>
+                                    <div class="bg-green-100 text-green-800 text-xs font-bold px-2.5 py-0.5 rounded">
+                                        AHORRO 68%
+                                    </div>
+                                </div>
+                                <p class="text-gray-700 mb-4">
+                                    Sistema híbrido de 45 kWp FV + aerotermia para 3 cámaras frigoríficas (0°C a -25°C) en establecimiento cárnico de Villa María.
+                                </p>
+                                <ul class="space-y-2 mb-6">
+                                    <li class="flex items-start">
+                                        <span class="flex-shrink-0 w-1.5 h-1.5 bg-orange-500 rounded-full mt-2 mr-3"></span>
+                                        <span class="text-gray-700">Autoconsumo directo del 82% de la energía generada</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <span class="flex-shrink-0 w-1.5 h-1.5 bg-orange-500 rounded-full mt-2 mr-3"></span>
+                                        <span class="text-gray-700">Reducción de $12.700 mensuales en factura eléctrica</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <span class="flex-shrink-0 w-1.5 h-1.5 bg-orange-500 rounded-full mt-2 mr-3"></span>
+                                        <span class="text-gray-700">Payback de 3.2 años con vida útil de 20+ años</span>
+                                    </li>
+                                </ul>
+                                <div class="bg-amber-50 text-amber-800 rounded-lg p-3 text-sm">
+                                    Foco: Reducción directa de costos operativos con estabilidad térmica 24/7
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Case 2: Distribution Center -->
+                        <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200">
+                            <div class="bg-cyan-50 p-6 border-b border-gray-200">
+                                <h4 class="text-xl font-bold text-gray-900 flex items-center">
+                                    <i class="fas fa-warehouse text-cyan-600 mr-2"></i>
+                                    Centro de Distribución Logística Fría
+                                </h4>
+                            </div>
+                            <div class="p-6">
+                                <div class="flex items-center mb-4">
+                                    <div class="bg-blue-100 text-blue-800 text-xs font-bold px-2.5 py-0.5 rounded mr-2">
+                                        AUTONOMÍA 85%
+                                    </div>
+                                    <div class="bg-green-100 text-green-800 text-xs font-bold px-2.5 py-0.5 rounded">
+                                        AHORRO 72%
+                                    </div>
+                                </div>
+                                <p class="text-gray-700 mb-4">
+                                    Sistema integrado de 180 kWp FV + aerotermia para clima controlado en centro de distribución de 4.500 m² en Córdoba capital.
+                                </p>
+                                <ul class="space-y-2 mb-6">
+                                    <li class="flex items-start">
+                                        <span class="flex-shrink-0 w-1.5 h-1.5 bg-cyan-600 rounded-full mt-2 mr-3"></span>
+                                        <span class="text-gray-700">Estabilidad de temperatura crítica para productos farmacéuticos y alimentos</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <span class="flex-shrink-0 w-1.5 h-1.5 bg-cyan-600 rounded-full mt-2 mr-3"></span>
+                                        <span class="text-gray-700">Reducción de $47.000 mensuales en costos energéticos</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <span class="flex-shrink-0 w-1.5 h-1.5 bg-cyan-600 rounded-full mt-2 mr-3"></span>
+                                        <span class="text-gray-700">Certificación LEED Gold con apoyo de ECORISE</span>
+                                    </li>
+                                </ul>
+                                <div class="bg-blue-50 text-blue-800 rounded-lg p-3 text-sm">
+                                    Foco: Mejora de competitividad energética y valor corporativo sostenible
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Impacto Técnico Cuantificado</h3>
+                    <ul class="space-y-5 mb-8">
+                        <li class="flex items-start">
+                            <div class="bg-blue-100 text-blue-800 rounded-xl p-3 mr-4 flex-shrink-0">
+                                <i class="fas fa-balance-scale text-sm"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg mb-1">Mejora del COP efectivo</h4>
+                                <p class="text-gray-700">
+                                    Al operar con energía solar de costo marginal cero, el COP efectivo mejora en un 25-30% respecto a operación con red eléctrica convencional.
+                                </p>
+                            </div>
+                        </li>
+                        
+                        <li class="flex items-start">
+                            <div class="bg-amber-100 text-amber-800 rounded-xl p-3 mr-4 flex-shrink-0">
+                                <i class="fas fa-factory text-sm"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg mb-1">Reducción de picos de demanda</h4>
+                                <p class="text-gray-700">
+                                    La integración reduce los picos de demanda en un 65%, evitando costos por potencia contratada y mejorando la estabilidad de la red local.
+                                </p>
+                            </div>
+                        </li>
+                        
+                        <li class="flex items-start">
+                            <div class="bg-green-100 text-green-800 rounded-xl p-3 mr-4 flex-shrink-0">
+                                <i class="fas fa-leaf text-sm"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg mb-1">Estabilidad del sistema</h4>
+                                <p class="text-gray-700">
+                                    La solución híbrida proporciona autonomía energética del 70-80% durante horas diurnas, reduciendo la vulnerabilidad a cortes y fluctuaciones tarifarias.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <div class="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl p-5 border border-blue-100">
+                        <p class="text-gray-700 italic">
+                            "En Córdoba, la sinergia aerotermia + FV no solo reduce costos, sino que transforma la energía en un activo estratégico para la competitividad industrial"
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Economic Impact -->
+    <section id="impacto" class="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white section-margin">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12">
+                <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-green-100 text-green-700 mb-4">
+                    <i class="fas fa-dollar-sign text-2xl"></i>
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Del Ahorro a la Rentabilidad y el Valor Corporativo
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Impacto económico cuantificable con beneficios ESG certificados
+                </p>
+            </div>
+            
+            <div class="bg-white rounded-2xl p-8 shadow-lg border border-gray-200 max-w-4xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div>
+                        <div class="text-5xl font-bold text-blue-600 mb-2">70%</div>
+                        <p class="text-gray-700 font-medium">Reducción en costos energéticos anuales</p>
+                    </div>
+                    <div>
+                        <div class="text-5xl font-bold text-green-600 mb-2">85</div>
+                        <p class="text-gray-700 font-medium">Toneladas de CO2 evitadas anualmente</p>
+                    </div>
+                    <div>
+                        <div class="text-5xl font-bold text-amber-600 mb-2">3.5</div>
+                        <p class="text-gray-700 font-medium">Años de payback promedio con incentivos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Why IntiWatt -->
+    <section id="intiwatt" class="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-600 to-cyan-700 text-white section-margin">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    Por qué IntiWatt es su Socio Estratégico
+                </h2>
+                <p class="text-xl text-blue-100 max-w-3xl mx-auto">
+                    Experiencia comprobable en soluciones fotovoltaicas para procesos térmicos
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+                    <div class="bg-white/20 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-lightbulb text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Experiencia Comprobable</h3>
+                    <p class="text-blue-100">
+                        Especialistas en fotovoltaica aplicada a consumos reales y procesos térmicos con más de 45 proyectos ejecutados en la región centro.
+                    </p>
+                </div>
+                
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+                    <div class="bg-white/20 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-balance-scale text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Garantía de Calidad</h3>
+                    <p class="text-blue-100">
+                        Ingeniería de valor que asegura sistemas técnicamente sólidos, eliminando riesgos de diseño o ejecución post-venta.
+                    </p>
+                </div>
+                
+                <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+                    <div class="bg-white/20 w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-dollar-sign text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Beneficios para su Negocio</h3>
+                    <p class="text-blue-100">
+                        Incremento del ticket medio en un 40% y diferenciación técnica real en un mercado saturado de soluciones incompletas.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="max-w-3xl mx-auto bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 text-center">
+                <p class="text-2xl font-bold italic mb-6">
+                    "No somos proveedores, somos socios estratégicos en su transición energética"
+                </p>
+                <p class="text-lg font-bold">
+                    IntiWatt — La insurgencia energética
+                </p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
+
